@@ -1,0 +1,35 @@
+
+1_
+Criando o aplicativo
+comando: 'npx create-expo-app NomeDoApp'
+comando: npx create-expo-app gerador
+
+2_
+Startando o projeto 
+comando: npx expo start
+
+OBS: Comando de start para o 'EXPO'
+
+3_
+Instalando biblioteca de Slider do 'Expo'
+comando: npx expo install @react-native-community/slider
+
+4_
+Instalando biblioteca para fazer um ClipBoard
+comando: npx expo install expo-clipboard
+
+junto a essa biblioteca temos que instalar outra para copiar
+ou armazenar no 'storage'.
+comando: npx expo install @react-native-async-storage/async-storage
+
+5_
+Instalando Navegação das paginas
+comando: npm install @react-navigation/native
+
+Como estamos usando o 'EXPO', vamos adicionar mais um comando 
+para o navigator.
+
+comando: npx expo install react-native-screens react-native-safe-area-context
+
+Por fim vamos usar uma navegação por 'TABS'
+comando: npm install @react-navigation/bottom-tabs
